@@ -153,3 +153,20 @@ checkpoints/
 *.tar.gz
 *.rar
 *.7z
+
+# Clinical Agent folders - exclude unnecessary files
+Clinical Agent/__pycache__/
+Clinical Agent/*.db
+Clinical Agent/*.sqlite
+Clinical Agent/*.sqlite3
+Clinical Agent/.env
+Clinical Agent/audit_logs.db
+
+Clinical Agent1/__pycache__/
+Clinical Agent1/*.db
+Clinical Agent1/*.sqlite
+Clinical Agent1/*.sqlite3
+Clinical Agent1/.env
+Clinical Agent1/audit.db
+Clinical Agent1/audit_logs_export.csv
+Clinical Agent1/.gitignore
