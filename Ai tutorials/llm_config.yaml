@@ -1,0 +1,16 @@
+provider: "gemini" # or "openai" or "gemini"
+
+openai:
+  api_key_env: "OPENAI_API_KEY"
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
+
+gemini:
+  api_key_env: "GEMINI_API_KEY"
+  model: "gemini-2.5-flash"
+
+tcs_genai:
+  api_key_env: "TCS_GENAI_API_KEY"
+  base_url: "https://genailab.tcs.in"
+  model: "azure/genailab-maas-gpt-4o-mini" # change if needed
+  verify_ssl: false

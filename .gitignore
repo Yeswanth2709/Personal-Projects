@@ -21,6 +21,12 @@ share/python-wheels/
 *.spec
 
 # Virtual Environment
+**/venv/
+**/ENV/
+**/env/
+**/.venv/
+**/.ENV/
+**/.env/
 venv/
 ENV/
 env/
