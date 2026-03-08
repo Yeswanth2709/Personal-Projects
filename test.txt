@@ -1,0 +1,12 @@
+7. SAFEGUARDING SENSITIVE DATA: ENSURING PRIVACY & REGULATORY COMPLIANCE
+Enterprises must comply with data protection laws like GDPR, HIPAA, and PCI-DSS when deploying Al Agent, as these regulations require strict controls over sensitive data. The use of LLM introduces privacy risks, such as confidential information surfacing in outputs or logs.
+To reduce these risks, organizations should enforce strong access controls, use encryption, anonymize data, and conduct regular audits and monitoring. Adopting data minimization and retention policies helps limit exposure, ensuring only necessary information is processed. Prioritizing secure data handling and regulatory compliance not only fulfills legal obligations but also fosters trust with customers and stakeholders.
+Expected Outcome:
+Zero leakage of PII: Strict controls, data masking, and anonymization to prevent disclosure of personal information. Regular audits and monitoring to quickly catch any leaks.
+Compliance adherence: Follow all relevant data laws (GDPR, HIPAA, PCI-DSS) with proper policies, risk reviews, and employee training to stay compliant.
+Secure data handling: Encrypt data, limit access, minimize retention, and test security regularly to protect sensitive information throughout the Al Agent lifecycle.
+
+Healthcare
+LLMs supporting patient triage must anonymize PHI in chat sessions and restrict output logs to authorized clinicians.
+Medical appointment scheduling bots should encrypt patient contact and health history data, applying strict access controls.
+Clinical decision support systems leveraging Al Agents must mask patient identifiers and comply with HIPAA data retention requirements.
